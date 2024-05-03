@@ -40,3 +40,37 @@ ul li a {
 ul li a:hover {
     color: #ddd;
 }
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h4 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.text h5 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.img {
+    margin-left: 20px;
+}
+
+.img img {
+    max-width: 100px;
+    border-radius: 50%;
+}
